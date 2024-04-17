@@ -1,0 +1,8 @@
+.banner {
+  @apply relative flex justify-center items-center md:items-end bg-auto h-[75vh] w-full bg-no-repeat bg-top px-[0%] pb-0 md:pb-12 mb-0;
+}
+
+.banner::after {
+  @apply content-[''] opacity-70 h-[75vh] w-full absolute top-0 left-0;
+  background-color: rgb(22, 6, 84);
+}

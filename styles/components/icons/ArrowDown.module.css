@@ -1,0 +1,5 @@
+.arrowDown {
+  @apply cursor-pointer rotate-45 translate-y-[-15px] translate-x-[5px] border-b border-r border-b-transparent border-r-transparent w-[30px] h-[30px];
+  border-bottom-color: rgb(255, 255, 255);
+  border-right-color: rgb(255, 255, 255);
+}
