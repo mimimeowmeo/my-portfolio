@@ -49,12 +49,14 @@ const ImageSection = ({
   imageList,
   direction,
 }: ImageSectionProps) => {
-  const [isMediumScreen, setIsMediumScreen] = useState(window.innerWidth < MD);
+  const [isMediumScreen, setIsMediumScreen] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
       setIsMediumScreen(window.innerWidth < MD);
     };
+
+    handleResize();
 
     window.addEventListener("resize", handleResize);
 

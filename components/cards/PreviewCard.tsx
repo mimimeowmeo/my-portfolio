@@ -19,12 +19,7 @@ const PreviewCard = ({
       className="flex flex-col items-center text-center hover:scale-105 transition-transform duration-300"
     >
       <div className="relative min-h-[250px] min-w-full mb-2">
-        <Image
-          src={previewImage}
-          alt={title}
-          fill
-          // sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1600px / 3)"
-        />
+        <Image src={previewImage} alt={title} fill />
       </div>
       <div className="pb-[4.5%] px-[8%] pt-[4%]">
         <p className="text-base-semibold text-light-1">{title}</p>

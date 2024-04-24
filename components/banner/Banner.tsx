@@ -8,12 +8,12 @@ const Banner = ({
   bgUrl,
   title,
   subTitle,
-  onArrowDownClick,
-}: {
+}: // onArrowDownClick,
+{
   bgUrl: string;
   title?: string;
   subTitle?: string;
-  onArrowDownClick: ArrowDownProps["onClick"];
+  // onArrowDownClick: ArrowDownProps["onClick"];
 }) => {
   const [opacity, setOpacity] = useState(1);
   useEffect(() => {
@@ -30,6 +30,17 @@ const Banner = ({
     };
   }, []);
 
+  const handleArrowDownClick = () => {
+    const vh = window.innerHeight;
+    const targetVh = 66 / 100;
+    const targetPx = vh * targetVh;
+
+    window.scrollTo({
+      top: targetPx,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className={styles.banner} style={{ backgroundImage: `url(${bgUrl})` }}>
       <div
@@ -42,7 +53,7 @@ const Banner = ({
         <p className="md:text-body-normal text-small-regular mb-[30px]">
           {subTitle}
         </p>
-        <ArrowDown onClick={onArrowDownClick} />
+        <ArrowDown onClick={handleArrowDownClick} />
       </div>
     </div>
   );
