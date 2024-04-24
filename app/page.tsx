@@ -2,10 +2,8 @@ import PreviewCard from "@/components/cards/PreviewCard";
 import Banner from "@/components/banner/Banner";
 import { ProjectData } from "./project/[name]/page";
 
-const API_URL = process.env.API_URL;
-
 export default async function Home() {
-  const res = await fetch(`${API_URL}/api/project`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/project`, {
     cache: "force-cache",
   });
   const data: { data: ProjectData[] } = await res.json();
