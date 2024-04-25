@@ -1,27 +1,11 @@
 import TextImageTemplate, {
   TextImageTemplateProps,
 } from "@/components/template/TextImageTemplate";
-
-export type ProjectData = {
-  id: string;
-  bannerUrl?: string;
-  title: string;
-  description?: string;
-  previewImage: string;
-  urlName: string;
-  year?: string | [string, string];
-  article: TextImageTemplateProps[];
-};
+import { projectList } from "@/data/mock";
 
 const page = async ({ params }: { params: { name: string } }) => {
-  const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/project/${params.name}`,
-    {
-      cache: "no-cache",
-    }
-  );
-  const data: { data: ProjectData } = await res.json();
-  const { bannerUrl, article = [] } = data.data || {};
+  const data = projectList.find((project) => project.urlName === params.name);
+  const { bannerUrl, article = [] } = data || {};
 
   return (
     <>

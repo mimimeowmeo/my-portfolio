@@ -1,4 +1,4 @@
-import { ProjectData } from "@/app/project/[name]/page";
+import { ProjectData } from "@/data/mock";
 import Image from "next/image";
 import Link from "next/link";
 

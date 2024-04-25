@@ -1,4 +1,17 @@
-export const projectList = [
+import { TextImageTemplateProps } from "@/components/template/TextImageTemplate";
+
+export type ProjectData = {
+  id: string;
+  bannerUrl?: string;
+  title: string;
+  description?: string;
+  previewImage: string;
+  urlName: string;
+  year?: string | [string, string];
+  article: TextImageTemplateProps[];
+};
+
+export const projectList: ProjectData[] = [
   {
     id: "platform-bo",
     bannerUrl: "",
