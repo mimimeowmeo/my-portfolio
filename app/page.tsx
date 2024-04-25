@@ -9,7 +9,7 @@ export default async function Home() {
         <Banner
           bgUrl="/assets/banner.jpg"
           title="I'm Lance Yu, a passionate front-end developer dedicated to creating user-friendly and enjoyable browsing experiences across diverse platforms and audiences."
-          subTitle="I have a passion for programming and a keen interest in algorithms."
+          // subTitle="I have a passion for programming and a keen interest in algorithms."
         />
       </section>
       <div className="h-[75vh] w-full" />
