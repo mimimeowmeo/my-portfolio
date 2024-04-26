@@ -1,19 +1,17 @@
 "use client";
 
 import styles from "@/styles/components/shared/Banner.module.css";
-import ArrowDown, { ArrowDownProps } from "../icons/ArrowDown";
+import ArrowDown from "../icons/ArrowDown";
 import { useEffect, useState } from "react";
 
 const Banner = ({
   bgUrl,
   title,
   subTitle,
-}: // onArrowDownClick,
-{
+}: {
   bgUrl: string;
   title?: string;
   subTitle?: string;
-  // onArrowDownClick: ArrowDownProps["onClick"];
 }) => {
   const [opacity, setOpacity] = useState(1);
   useEffect(() => {

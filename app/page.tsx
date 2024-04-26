@@ -13,7 +13,7 @@ export default async function Home() {
         />
       </section>
       <div className="h-[75vh] w-full" />
-      <section className="relative w-full bg-dark-1 pt-8 px-4 grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 z-20">
+      <section className="relative w-full bg-dark-1 py-8 px-4 grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 z-20">
         {projectList.map(({ id, title, urlName, year, previewImage }) => {
           return (
             <PreviewCard
