@@ -119,7 +119,7 @@ export const projectList: ProjectData[] = [
             title: "CHALLENGE",
             subtitle: "",
             paragraph:
-              "Our business logic API, housed in our Malaysia office, demanded close coordination between Funpodium's backend team, responsible for the primary API gateway, and my CMS team and PHP developers, who implemented an additional layer. Serving as the pivotal liaison, I regularly coordinate with all three teams to address product API needs and facilitate productive meetings.",
+              "The business logic API that was made by the company's Malaysia team, demanded close coordination between Funpodium's backend team, responsible for the primary API gateway, and my CMS team and PHP developers, who implemented an additional layer. Serving as the pivotal liaison, I regularly coordinated with all four teams to address product API needs and to facilitate productive meetings.",
           },
           {
             titlePrefix: "",
@@ -168,14 +168,14 @@ export const projectList: ProjectData[] = [
             title: "CHALLENGE",
             subtitle: "",
             paragraph:
-              "I am thrilled to have the opportunity to work on my first B2C website in my career. It's truly an honor, and I'm incredibly excited.",
+              "I was thrilled to have had the opportunity to work on my first B2C website in my career. It was truly an honor, and I was incredibly excited.",
           },
           {
             titlePrefix: "",
             title: "RESULTS",
             subtitle: "",
             paragraph:
-              "The front-end development team is dedicated to presenting Funpodium's product information and job opportunities in a user-friendly manner on our responsive official website, ensuring easy access for all users.",
+              "The front-end development team was dedicated to presenting Funpodium's product information and job opportunities in a user-friendly manner on our responsive website, ensuring easy access for all users.",
           },
         ],
       },
@@ -250,7 +250,7 @@ export const projectList: ProjectData[] = [
             title: "ABOUT",
             subtitle: "",
             paragraph:
-              "This is a fresh project for a betting company, initiated with Next.js. We managed to launch the first version in just seven months, which was a significant achievement for our team. Our clients were pleased with the outcome and provided positive feedback.<br />Working together with three other frontend developers, we embraced the agile principles of the Scrum framework. Daily stand-up meetings provided us with a platform to synchronize our efforts, while weekly sprint planning and review sessions ensured that we remained aligned with project goals and timelines.<br />To expedite development, I recommended Ant Design and Tailwind CSS for their efficient UI creation capabilities, thanks to their ready-to-use components and class names. For managing data fetching and state, we leveraged React Query. React Query simplified the management of asynchronous data fetching and caching, providing a convenient way to handle API responses and manage data updates in real-time. For state management, we relied on Zustand. Zustand is a lightweight state management library for React applications. To ensure type safety and code consistency, we used TypeScript.<br />Overall, these technologies combined to provide a robust and efficient development environment, enabling us to deliver a high-quality and feature-rich product to our clients.",
+              "This is a fresh project for a betting company, initiated with Next.js. We managed to launch the first version in just seven months, which was a significant achievement for our team. Our clients were pleased with the outcome and provided positive feedback.<br />Working together with three other frontend developers, we embraced the agile principles of the Scrum framework. Daily stand-up meetings provided us with a platform to synchronize our efforts, while weekly sprint planning and review sessions ensured that we remained aligned with our project goals and timelines.<br />To expedite development, I recommended Ant Design and Tailwind CSS for their efficient UI creation capabilities, thanks to their ready-to-use components and class names. For managing data fetching and state, we leveraged React Query. React Query simplified the management of asynchronous data fetching and caching, providing a convenient way to handle API responses and manage data updates in real-time. For state management, we relied on Zustand. Zustand is a lightweight state management library for React applications. To ensure type safety and code consistency, we used TypeScript.<br />Overall, these technologies combined to provide a robust and efficient development environment, enabling us to deliver a high-quality and feature-rich product to our clients.",
           },
         ],
       },

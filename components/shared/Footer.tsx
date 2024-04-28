@@ -8,7 +8,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="mt-20 my-14 flex flex-col gap-3">
+    <div className="py-14 flex flex-col gap-3">
       <p className="text-light-5 text-small-regular text-center">
         Powered by passion and motivation to make a difference in this world
       </p>
