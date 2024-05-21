@@ -3,10 +3,10 @@ export const topbarLinks = [
     route: "/",
     label: "Professional",
   },
-  // {
-  //   route: "/personal",
-  //   label: "Personal",
-  // },
+  {
+    route: "/personal",
+    label: "Personal",
+  },
   {
     route: "/about",
     label: "About",

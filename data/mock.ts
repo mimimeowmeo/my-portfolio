@@ -257,3 +257,12 @@ export const projectList: ProjectData[] = [
     ],
   },
 ];
+
+type PersonalList = { url: string; previewImage: string };
+
+export const personalList: PersonalList[] = [
+  {
+    url: "https://ttday.vercel.app/",
+    previewImage: "/assets/ttday.png",
+  },
+];
